@@ -21,6 +21,7 @@
  	max-width: 980px;
  	margin: 0 auto;
  	position: relative;
+ 	
  }
  .title {
 	font-size: 48px;
@@ -42,7 +43,7 @@
 }
 .title_sec {
 	font-size: 48px;
-	padding-top: 121px;
+	padding: 110px 0 20px;
 	text-align: center;
 	color: #737070;
 }
@@ -52,3 +53,10 @@
 	color: #737070;
 	text-align: center;
 }
+
+
+
+
+
+
+

@@ -66,3 +66,85 @@
 	top: 10px;
 	width: 7%;
 }
+
+
+
+
+
+
+
+.price {
+	background-color: #e9ede9;
+	text-align: center;
+}
+.price_block {
+	background-color: #e2e4e1;
+	display: inline-block;
+	margin: 0 auto;
+	width: 30%;
+	margin-top: 95px;
+	margin: 95px 1%;
+}
+.title_price {
+	font-family: "Myriad Pro";
+	font-size: 33px;
+	line-height: 35px;
+	color: #7d7b7b;
+	padding: 34px 0;
+}
+.title_price span {
+	color: #afacac;
+}
+.sub-title_price{
+	color: #4e4e4e;
+	font-size: 32px;
+	font-family: "Myriad Pro";
+}
+.price_count {
+	color: #b38e48;
+	font-size: 32px;
+	font-family: "Myriad Pro";
+	padding: 16px 0;
+}
+.details_button {
+	background-color: #71ae5a;
+	border: 1px solid #71ae5a;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #e9ede9;
+	padding: 13px 18px 8px;
+	margin: 20px 20%;
+}
+
+.footer {
+	background-color: #e9ede9;
+}
+.nav-bar-bottom {
+
+}
+.nav-bar-bottom_item a {
+	color: #747373;
+	font-size: 18px;
+	padding-right: 15px;
+	text-decoration: none;
+}
+.nav-bar-bottom_item a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.copyright {
+	color: #958f8f;
+	font-size: 18px;
+	padding: 15px 0;
+}
+.button_top {
+	position: absolute;
+	bottom: 25px;
+	right: 10px;
+	width: 48px;
+	height: 48px;
+	background-color: #72af5a;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 48px;
+}
