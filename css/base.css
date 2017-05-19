@@ -1,0 +1,54 @@
+ @font-face {
+ 	font-family:  "Myriad Pro";
+ 	src: url('../fonts/MyriadPro-Regular.otf');
+ }
+  @font-face {
+ 	font-family:  Myriad-bold;
+ 	src: url('../fonts/MyriadPro-Bold.otf');
+ }
+   @font-face {
+ 	font-family:  Myriad-semibold;
+ 	src: url('../fonts/MyriadPro-Semibold.otf');
+ }
+
+/*  img {
+ 	width: 100%;
+ } */
+ a, p, h1, h2, h3 {
+ 	font-family: "Myriad Pro";
+ }
+ .container {
+ 	max-width: 980px;
+ 	margin: 0 auto;
+ 	position: relative;
+ }
+ .title {
+	font-size: 48px;
+	padding-top: 100px;
+	color: #fff;
+	text-align: center;
+ }
+ .sub-title {
+	font-size: 25px;
+	padding-top: 18px;
+	color: #fff;
+ }
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.title_sec {
+	font-size: 48px;
+	padding-top: 121px;
+	text-align: center;
+	color: #737070;
+}
+.sub-title_sec {
+		font-size: 25px;
+	padding-top: 5px;
+	color: #737070;
+	text-align: center;
+}

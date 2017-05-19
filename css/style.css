@@ -1,0 +1,68 @@
+.header {
+	background-image: url('../img/rectangle-1-copy.png');
+	padding-top: 38px;
+}
+
+.logo a{
+	color: #fff;
+	text-decoration: none;
+	font-family: "Myriad Pro";
+	font-size: 30px;
+	height: 33px;
+	font-weight: bold;
+}
+.logo img {
+	width: 56px;
+	margin-bottom: -3px;
+}
+.nav-bar {
+	float: right;
+	position: absolute;
+	top:  18px;
+	right: 0;
+}
+.nav-bar-item a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 10px;
+	font-size: 21px;
+}
+.nav-bar-item a:hover {
+	text-decoration: underline;
+}
+.buy_button {
+	border: 2px solid #fff;
+}
+.header_content img {
+	width: 25%;
+	
+}
+.header_content {
+	text-align: center;
+	padding-bottom: 67px;
+}
+
+.desciption {
+	text-align: center;
+	padding-bottom: 119px;
+}
+.description_item {
+	width: 23%;
+	padding-top: 71px;
+}
+.consist {
+	background-color: #2b342b;
+	text-align: center;
+}
+.consist_item {
+	width: 23%;
+	padding-top: 47px;
+	position: relative;
+	text-align: center;
+}
+.block-rt {
+	background-image: url('../img/3-layers-right.png');
+	position: absolute;
+	top: 10px;
+	width: 7%;
+}
