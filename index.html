@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <div class="wrap">
-        <div class="header">
+        <div class="header" id="header">
             <div class="container">
                 <div class="logo">
                     <a href="#">
@@ -24,7 +25,7 @@
                         <a href="#">About</a>
                         <a href="#">Features</a>
                         <a href="#">Nutrition</a>
-                        <a href="#" class="buy_button">Buy now</a>
+                        <a href="#price" class="buy_button">Buy now</a>
                     </nav>
                 </div>
                 <div class="header_content">
@@ -45,14 +46,20 @@
             <div class="consist_item">
                 <img src="img/vector-smart-object_3.png" alt="" class="">
                 <div class="block-rt">
-                    <p>Protein 0,63g</p>
+                    <p class="block-rt_p">Protein 0,63g</p>
                 </div>
-                <div class="block-rb"></div>
-                <div class="block-lt"></div>
-                <div class="block-lb"></div>
+                <div class="block-rb">
+                    <p class="block-rb_p">Water  92%</p>
+                </div>
+                <div class="block-lt">
+                    <p class="block-lt-p">Calories  35kcal</p>
+                </div>
+                <div class="block-lb">
+                    <p class="block-lb-p">Fat 0,63g</p>
+                </div>
             </div>
         </div>
-        <div class="price">
+        <div class="price" id="price">
             <div class="container">
                 <h2 class="title_sec">Meet our plans</h2>
                 <p class="sub-title_sec">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -95,7 +102,7 @@
                     </nav>
                 </div>
                 <p class="copyright">© 2015 Hydric. All rights reserved.</p>
-                <div class="button_top"><a href="#"><img src="img/shape-2.png" alt=""></a></div>
+                <div class="button_top"><a href="#header"><img  src="img/shape-2.png" alt=""></a></div>
             </div>
         </div>
     </div>
