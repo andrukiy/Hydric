@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles-nav.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -14,19 +16,23 @@
     <div class="wrap">
         <div class="header" id="header">
             <div class="container">
-                <div class="logo">
-                    <a href="#">
-                        <img src="img/vector-smart-object_smal.png" alt=""> Hydric
-                    </a>
-                </div>
-                <div class="nav-bar clearfix">
-                    <nav class="nav-bar-item">
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Features</a>
-                        <a href="#">Nutrition</a>
-                        <a href="#price" class="buy_button">Buy now</a>
-                    </nav>
+                <div class="header-navbar clearfix">
+                    <div class="logo clearfix">
+                        <a href="#">
+                            <img src="img/vector-smart-object_smal.png" alt=""> Hydric
+                        </a>
+                    </div>
+                    <div class="nav clearfix ">
+                        <input type="checkbox" id="btn-menu" />
+                        <label for="btn-menu"></label>
+                        <nav class="nav-bar list-menu">
+                            <a href="#" class="nav-item">Home</a>
+                            <a href="#" class="nav-item">About</a>
+                            <a href="#" class="nav-item">Features</a>
+                            <a href="#" class="nav-item">Nutrition</a>
+                            <a href="#price" class="buy_button nav-item">Buy now</a>
+                        </nav>
+                    </div>
                 </div>
                 <div class="header_content">
                     <h1 class="title">Sweet and delicious</h1>
@@ -36,8 +42,8 @@
         </div>
         <div class="desciption">
             <h2 class="title_sec">More flavor and juiciness</h2>
-            <p class="sub-title_sec">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p class="sub-title_sec"> Lorem ipsum dolor sit amet.</p>
+            <p class="sub-title_sec">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <br> Lorem ipsum dolor sit amet.</p>
             <img src="img/vector-smart-object_2.png" alt="" class="description_item">
         </div>
         <div class="consist">
@@ -49,10 +55,10 @@
                     <p class="block-rt_p">Protein 0,63g</p>
                 </div>
                 <div class="block-rb">
-                    <p class="block-rb_p">Water  92%</p>
+                    <p class="block-rb_p">Water 92%</p>
                 </div>
                 <div class="block-lt">
-                    <p class="block-lt-p">Calories  35kcal</p>
+                    <p class="block-lt-p">Calories 35kcal</p>
                 </div>
                 <div class="block-lb">
                     <p class="block-lb-p">Fat 0,63g</p>
@@ -62,47 +68,47 @@
         <div class="price" id="price">
             <div class="container">
                 <h2 class="title_sec">Meet our plans</h2>
-                <p class="sub-title_sec">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p class="sub-title_sec">Lorem ipsum dolor sit amet.</p>
-                <div class="price_block">
-                    <h3 class="title_price">Hydric <span>Lite</span></h3>
-                    <p class="sub-title_price">Starting at</p>
-                    <p class="price_count">$ 6.90</p>
-                    <a href="#">
-                        <p class="details_button">View details</p>
-                    </a>
-                </div>
-                <div class="price_block">
-                    <h3 class="title_price">Hydric <span>Pro</span></h3>
-                    <p class="sub-title_price">Starting at</p>
-                    <p class="price_count">$ 22.90</p>
-                    <a href="">
-                        <p class="details_button">View details</p>
-                    </a>
-                </div>
-                <div class="price_block">
-                    <h3 class="title_price">Hydric <span>Star</span></h3>
-                    <p class="sub-title_price">Starting at</p>
-                    <p class="price_count">$ 42.90</p>
-                    <a href="#">
-                        <p class="details_button">View details</p>
-                    </a>
+                <p class="sub-title_sec">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <br> Lorem ipsum dolor sit amet.</p>
+                <div class="section-price">
+                    <div class="price_block">
+                        <h3 class="title_price">Hydric <span>Lite</span></h3>
+                        <p class="sub-title_price">Starting at</p>
+                        <p class="price_count">$ 6.90</p>
+                        <a href="#" class="details_button">View details</a>
+                    </div>
+                    <div class="price_block">
+                        <h3 class="title_price">Hydric <span>Pro</span></h3>
+                        <p class="sub-title_price">Starting at</p>
+                        <p class="price_count">$ 22.90</p>
+                        <a href="#" class="details_button">View details</a>
+                    </div>
+                    <div class="price_block">
+                        <h3 class="title_price">Hydric <span>Star</span></h3>
+                        <p class="sub-title_price">Starting at</p>
+                        <p class="price_count">$ 42.90</p>
+                        <a href="#" class="details_button">View details</a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="footer">
             <div class="container">
-                <div class="nav-bar-bottom">
-                    <nav class="nav-bar-bottom_item">
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Features</a>
-                        <a href="#">Nutrition</a>
-                        <a href="#">Buy now</a>
-                    </nav>
+                <div class="section-footer">
+                    <div class="nav-bar-bottom">
+                        <nav class="nav-bar-bottom_item">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Features</a>
+                            <a href="#">Nutrition</a>
+                            <a href="#">Buy now</a>
+                        </nav>
+                    </div>
+                    <p class="copyright">© 2015 Hydric. All rights reserved.</p>
+                    <div>
+                        <a class="button_top" href="#header"></a>
+                    </div>
                 </div>
-                <p class="copyright">© 2015 Hydric. All rights reserved.</p>
-                <div class="button_top"><a href="#header"><img  src="img/shape-2.png" alt=""></a></div>
             </div>
         </div>
     </div>

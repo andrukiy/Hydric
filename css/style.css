@@ -2,6 +2,10 @@
 	background-image: url('../img/rectangle-1-copy.png');
 	padding-top: 38px;
 }
+.logo {
+	float: left;
+	display: block;
+}
 
 .logo a{
 	color: #fff;
@@ -15,43 +19,49 @@
 	width: 56px;
 	margin-bottom: -3px;
 }
-.nav-bar {
+.nav {
 	float: right;
-	position: absolute;
 	top:  13px;
 	right: 0;
 }
-.nav-bar-item a {
+.nav-bar {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+.nav-bar a {
 	color: #ffffff;
 	text-decoration: none;
 	padding: 10px 10px;
 	font-size: 21px;
+	display: block;
 }
-.nav-bar-item a:hover {
+.nav-bar a:hover {
 	text-decoration: underline;
 }
 .buy_button {
 	border: 2px solid #fff;
 }
-.nav-bar-item .buy_button:hover {
+.nav-bar .buy_button:hover {
 	text-decoration: none;
 	background-color: #72af5a;
 }
 .header_content img {
-	width: 25%;
+	max-width: 200px;
 	
 }
 .header_content {
 	text-align: center;
 	padding-bottom: 67px;
 }
-
 .desciption {
 	text-align: center;
 	padding-bottom: 119px;
 }
 .description_item {
-	width: 23%;
+	max-width: 200px;
 	padding-top: 71px;
 }
 .consist {
@@ -121,25 +131,29 @@
 	position: absolute;
 	top: -12px;
 }
+.section-price {
+	padding: 85px 0;
+}
 
 .price {
 	background-color: #e9ede9;
 	text-align: center;
+	
 }
 .price_block {
 	background-color: #e2e4e1;
 	display: inline-block;
 	margin: 0 auto;
 	width: 30%;
-	margin-top: 95px;
-	margin: 95px 1%;
+	min-width: 200px;
+	margin: 10px 1%;
 }
 .title_price {
 	font-family: "Myriad Pro";
 	font-size: 33px;
 	line-height: 35px;
 	color: #7d7b7b;
-	padding: 34px 0;
+	padding: 34px 10px;
 }
 .title_price span {
 	color: #afacac;
@@ -148,14 +162,16 @@
 	color: #4e4e4e;
 	font-size: 32px;
 	font-family: "Myriad Pro";
+	padding: 0 10px;
 }
 .price_count {
 	color: #b38e48;
 	font-size: 32px;
 	font-family: "Myriad Pro";
-	padding: 16px 0;
+	padding: 16px 10px;
 }
 .details_button {
+	display: block;
 	background-color: #71ae5a;
 	border: 1px solid #71ae5a;
 	border-radius: 5px;
@@ -168,8 +184,8 @@
 .footer {
 	background-color: #e9ede9;
 }
-.nav-bar-bottom {
-
+.section-footer{
+	position: relative;
 }
 .nav-bar-bottom_item a {
 	color: #747373;
@@ -192,13 +208,20 @@
 	right: 10px;
 	width: 48px;
 	height: 48px;
-	background-color: #72af5a;
+	background: #3e6940 url('../img/shape-2.png') no-repeat;
+	background-position: 50% 45%;
 	border-radius: 50%;
 	text-align: center;
 	line-height: 48px;
 }
+.button_top:hover {
+	background: #72af5a url('../img/shape-2.png') no-repeat;
+	background-position: 50% 45%;
+}
 
-@media screen and (max-width: 670px){
+
+
+@media screen and (max-width: 650px){
 
 
 	
